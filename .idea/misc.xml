@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Farah Diyana Ishak/Test5Cycle/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/Farah Diyana Ishak/Test5Cycle/app/src/main/res/drawable/aluminium_bg.xml" value="0.1" />
+        <entry key="..\:/Users/Farah Diyana Ishak/Test5Cycle/app/src/main/res/drawable/border.xml" value="0.1" />
+        <entry key="..\:/Users/Farah Diyana Ishak/Test5Cycle/app/src/main/res/drawable/button.xml" value="0.1" />
+        <entry key="..\:/Users/Farah Diyana Ishak/Test5Cycle/app/src/main/res/drawable/circlebg.xml" value="0.1" />
+        <entry key="..\:/Users/Farah Diyana Ishak/Test5Cycle/app/src/main/res/drawable/ic_baseline_account_box_24.xml" value="0.1" />
+        <entry key="..\:/Users/Farah Diyana Ishak/Test5Cycle/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.154" />
+        <entry key="..\:/Users/Farah Diyana Ishak/Test5Cycle/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.2665" />
+        <entry key="..\:/Users/Farah Diyana Ishak/Test5Cycle/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.1" />
+        <entry key="..\:/Users/Farah Diyana Ishak/Test5Cycle/app/src/main/res/drawable/ic_baseline_person_outline_24.xml" value="0.1" />
+        <entry key="..\:/Users/Farah Diyana Ishak/Test5Cycle/app/src/main/res/drawable/layout.xml" value="0.121" />
+        <entry key="..\:/Users/Farah Diyana Ishak/Test5Cycle/app/src/main/res/drawable/newspaper.xml" value="0.1" />
+        <entry key="..\:/Users/Farah Diyana Ishak/Test5Cycle/app/src/main/res/layout/activity_choose_login_register.xml" value="0.22780797101449277" />
+        <entry key="..\:/Users/Farah Diyana Ishak/Test5Cycle/app/src/main/res/layout/activity_home_page.xml" value="0.22" />
+        <entry key="..\:/Users/Farah Diyana Ishak/Test5Cycle/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Farah Diyana Ishak/Test5Cycle/app/src/main/res/layout/activity_map.xml" value="0.1" />
+        <entry key="..\:/Users/Farah Diyana Ishak/Test5Cycle/app/src/main/res/layout/activity_maps.xml" value="0.31139240506329113" />
+        <entry key="..\:/Users/Farah Diyana Ishak/Test5Cycle/app/src/main/res/layout/activity_recycle.xml" value="0.25" />
+        <entry key="..\:/Users/Farah Diyana Ishak/Test5Cycle/app/src/main/res/layout/activity_reduce.xml" value="0.3625" />
+        <entry key="..\:/Users/Farah Diyana Ishak/Test5Cycle/app/src/main/res/layout/activity_refuse.xml" value="0.3625" />
+        <entry key="..\:/Users/Farah Diyana Ishak/Test5Cycle/app/src/main/res/layout/activity_repair.xml" value="0.3625" />
+        <entry key="..\:/Users/Farah Diyana Ishak/Test5Cycle/app/src/main/res/layout/activity_reuse.xml" value="0.26358695652173914" />
+        <entry key="..\:/Users/Farah Diyana Ishak/Test5Cycle/app/src/main/res/layout/activity_sign_up_register.xml" value="0.2341485507246377" />
+        <entry key="..\:/Users/Farah Diyana Ishak/Test5Cycle/app/src/main/res/layout/activity_splash_screen.xml" value="0.20697463768115942" />
+        <entry key="..\:/Users/Farah Diyana Ishak/Test5Cycle/app/src/main/res/layout/fragment_account_page.xml" value="0.1896551724137931" />
+        <entry key="..\:/Users/Farah Diyana Ishak/Test5Cycle/app/src/main/res/layout/fragment_feed_page.xml" value="0.33" />
+        <entry key="..\:/Users/Farah Diyana Ishak/Test5Cycle/app/src/main/res/layout/fragment_home_page.xml" value="0.23822463768115942" />
+        <entry key="..\:/Users/Farah Diyana Ishak/Test5Cycle/app/src/main/res/layout/fragment_setting_page.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Farah Diyana Ishak/Test5Cycle/app/src/main/res/layout/settings_account_page.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Farah Diyana Ishak/Test5Cycle/app/src/main/res/layout/settings_activity.xml" value="0.17806484295845998" />
+        <entry key="..\:/Users/Farah Diyana Ishak/Test5Cycle/app/src/main/res/menu/bottom_nav_menu.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Farah Diyana Ishak/Test5Cycle/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.112" />
+        <entry key="..\:/Users/Farah Diyana Ishak/Test5Cycle/app/src/main/res/xml/root_preferences.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

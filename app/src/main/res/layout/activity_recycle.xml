@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Recycle">
+
+<com.google.android.material.appbar.AppBarLayout
+    android:layout_width="match_parent"
+    android:layout_height="280dp"
+    android:id="@+id/appbar"
+    android:fitsSystemWindows="true">
+
+    <com.google.android.material.appbar.CollapsingToolbarLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/collapsingToolbar"
+        android:fitsSystemWindows="true"
+        app:contentScrim="?attr/colorAccent"
+        app:expandedTitleMarginStart="15dp"
+        app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="299dp"
+            android:layout_gravity="center|end"
+            android:layout_marginBottom="19dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/test"
+            app:layout_collapseMode="parallax" />
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:layout_collapseMode="pin"/>
+
+    </com.google.android.material.appbar.CollapsingToolbarLayout>
+</com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/layout"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardview"
+                android:layout_width="330dp"
+                android:layout_height="190dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#fff"
+                android:foregroundGravity="center_horizontal"
+                app:cardCornerRadius="15dp">
+
+                <VideoView
+                    android:id="@+id/video_view"
+                    android:layout_width="330dp"
+                    android:layout_height="190dp"/>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/text5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cardview"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:padding="3dp"
+                android:text="Recycling"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text5"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:padding="3dp"
+                android:text="“Recycling is the process of converting waste materials into reusable objects to prevent waste of potentially useful materials, reduce the consumption of fresh raw materials, energy usage, air pollution (from incineration) and water pollution (from landfilling) by decreasing the need for “conventional” waste disposal and lowering greenhouse gas emissions compared to plastic production. Recycling is a key component of modern waste reduction and is the third component of the “Reduce, Reuse and Recycle” waste hierarchy.”"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text2"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:padding="3dp"
+                android:text="Importance of Recycling"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text3"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:padding="3dp"
+                android:text="Environmental Benefits
+1. By recycling, people can prevent millions of tons of material from entering landfills, saving space for garbage that cannot be repurposed.
+
+There are over 1,500 landfill sites in the UK, which produced a quarter of the UK’s emissions of methane, a powerful greenhouse gas. Landfills not only pollute the environment but also hamper the beauty of the city.
+
+2. Recycling reduces the need for extracting (mining, quarrying and logging), refining and processing raw materials, all of which create substantial air and water pollution. The pollutants that are released into the air and water can be greatly reduced with an increase in recycling.
+
+3. As recycling saves energy, it also reduces greenhouse gas emissions, which helps to tackle climate change. Recent UK recycling is estimated to save more than 18 million tonnes of CO2 a year, equivalent to taking 5 million cars off the road. In short, recycling reduces greenhouse gas emissions into the atmosphere."
+                android:textColor="@color/white"
+                android:textSize="15dp"
+
+                tools:ignore="MissingConstraints" />
+
+
+
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

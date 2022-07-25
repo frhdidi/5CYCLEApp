@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "913024254072",
+    "project_id": "test5cycle",
+    "storage_bucket": "test5cycle.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913024254072:android:6097691c5d013cb3b32d8d",
+        "android_client_info": {
+          "package_name": "com.example.test5cycle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913024254072-0iuf32ndej8lo6acdp9205k47na15045.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCe-rC7Q-_8YR2tfgGcs_cB94V3QW0TJfw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913024254072-0iuf32ndej8lo6acdp9205k47na15045.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
